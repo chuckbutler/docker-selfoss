@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SELFOSSDIR=basename $0
+SELFOSSDIR=$(dirname $0)
 
 cd $SELFOSSDIR && git pull origin master
 
